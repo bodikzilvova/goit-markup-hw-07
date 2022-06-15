@@ -494,6 +494,7 @@ textarea {
   letter-spacing: 0.03em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+  margin-left: 4px;
 }
 
 .btn-send {
@@ -523,17 +524,17 @@ textarea {
           align-items: center;
 }
 
-.benefits__item {
+.benefits {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.benefits__contents {
+.benefits__item {
   margin-right: 30px;
 }
 
-.benefits__contents:last-child {
+.benefits__item:last-child {
   margin-right: 0px;
 }
 
@@ -553,7 +554,7 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.benefits__icons {
+.benefits__box {
   background-color: var(--button-color);
   height: 120px;
   width: 270px;
@@ -575,11 +576,11 @@ textarea {
   height: 70px;
 }
 
-.occupation {
+.section__no-padding-top {
   padding-top: 0;
 }
 
-.occupation__title {
+.section__title {
   color: var(--main-color);
   margin-bottom: 50px;
   font-weight: 700;
@@ -589,22 +590,22 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.occupation__item {
+.occupation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.occupation__thumb {
+.occupation__item {
   position: relative;
   margin-right: 30px;
 }
 
-.occupation__thumb:last-child {
+.occupation__item:last-child {
   margin-right: 0px;
 }
 
-.occupation__text {
+.occupation__title {
   color: var(--white-color);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -625,6 +626,7 @@ textarea {
   left: 0px;
   width: 100%;
   height: 70px;
+  position: absolute;
 }
 
 .team {
@@ -732,7 +734,7 @@ textarea {
   fill: #AFB1B8;
 }
 
-.clients__title {
+.section__title {
   color: var(--main-color);
   margin-bottom: 50px;
   font-weight: 700;
@@ -742,7 +744,7 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.clients__list {
+.clients {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

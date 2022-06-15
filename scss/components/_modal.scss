@@ -182,6 +182,7 @@ textarea {
 .agreement-text {
     display: flex;
     align-items: center;
+ 
 
     &::before {
             content: " ";
@@ -203,6 +204,8 @@ textarea {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
+    margin-left: 4px;
+
 }
 
 

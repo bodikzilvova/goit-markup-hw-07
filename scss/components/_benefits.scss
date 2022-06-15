@@ -1,10 +1,10 @@
 
-.benefits__item {
+.benefits {
     display: flex;
   
 }
 
-.benefits__contents {
+.benefits__item {
     margin-right: 30px;
 
     &:last-child {
@@ -29,7 +29,7 @@
     letter-spacing: 0.03em;
 }
 
-.benefits__icons {
+.benefits__box {
     background-color: var(--button-color);
     height: 120px;
     width: 270px;
